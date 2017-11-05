@@ -26,7 +26,7 @@ app.get('/api/counter/increment', (req, res) => {
   res.status(200);
 });
 
-console.log(config.PORT);
+// console.log(config.PORT);
 const server = app.listen(config.PORT);
 
 // NODE_ENV=production node app.js
